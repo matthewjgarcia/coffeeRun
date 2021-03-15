@@ -1,8 +1,8 @@
-(function (window){
+(function (window) {
     'use strict';
     var App = window.App || {};
     var $ = window.jQuery;
-    
+
     function FormHandler(selector) {
         // code here
         if (!selector) {
