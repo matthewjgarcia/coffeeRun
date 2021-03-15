@@ -33,9 +33,9 @@
 
     CheckList.prototype.removeRow = function (email) {
         this.$element
-        .find('[value="' + email + '"]')
-        .closest('[data-coffee-order="checkbox"]')
-        .remove();
+            .find('[value="' + email + '"]')
+            .closest('[data-coffee-order="checkbox"]')
+            .remove();
     };
 
     function Row(coffeeOrder) {
@@ -52,7 +52,7 @@
         });
 
         var description = coffeeOrder.size + ' ';
-        if(coffeeOrder.flavor) {
+        if (coffeeOrder.flavor) {
             description += coffeeOrder.flavor + ' ';
         }
 
